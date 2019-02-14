@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Gitlab Git History
 // @namespace       jackymancs4/userscripts
-// @version         1.0.0
+// @version         1.0.1
 // @description     Add a button to the gitlab file interface to see its history
 // @author          Giacomo Rossetto <jackyman_cs4@live.it>
 // @match           https://gitlab.com/*
@@ -13,6 +13,10 @@
 (function() {
     'use strict';
 
-    GM_log("Not implemented yet! Sorry.")
+    let url = window.location.href;
+    let parsedURL = new URL(url)
 
+    if (parsedURL.host == "gitlab.com") {
+        GM_log("Gitlab Git History Userscript: Not implemented yet! Sorry.")
+    }
 })();
