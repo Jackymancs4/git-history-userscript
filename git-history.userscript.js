@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Github Git History
+// @name            Git History
 // @namespace       jackymancs4/userscripts
 // @version         1.0.0
 // @description     Add a button to the file interface to see its history
